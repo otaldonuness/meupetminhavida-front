@@ -2,5 +2,50 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "enabled": true,
+  "enabledManagers": ["npm", "github-actions"],
+  "postUpdateOptions": ["yarnDedupeHighest"],
+  "packageRules": [
+    {
+      "groupName": "vitest monorepo",
+      "groupSlug": "vitest",
+      "matchPackageNames": [
+        "vitest"
+      ],
+      "matchPackagePrefixes": [
+        "@vitest/"
+      ]
+    },
+    {
+      "groupName": "tailwind monorepo",
+      "groupSlug": "tailwind",
+      "matchPackageNames": [
+        "remix"
+      ],
+      "matchPackagePrefixes": [
+        "@tailwindcss/"
+      ]
+    },
+    {
+      "matchPaths": ["package.json"],
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "rangeStrategy": "pin"
+    },
+    {
+      "matchPaths": ["packages/**"],
+      "matchDepTypes": [
+        "dependencies"
+      ],
+      "rangeStrategy": "replace"
+    },
+    {
+      "matchDepTypes": [
+        "devDependencies"
+      ],
+      "rangeStrategy": "auto"
+    }
   ]
 }
