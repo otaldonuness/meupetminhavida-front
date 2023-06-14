@@ -38,3 +38,6 @@ next-env.d.ts
 .turbo
 .vscode
 styles/dist.css
+
+# Sentry Auth Token
+.sentryclirc
