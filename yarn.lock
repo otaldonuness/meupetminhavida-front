@@ -2061,7 +2061,7 @@
     localforage "^1.8.1"
     tslib "^1.9.3"
 
-"@sentry/nextjs@^7.55.2":
+"@sentry/nextjs@7.55.2":
   version "7.55.2"
   resolved "https://registry.yarnpkg.com/@sentry/nextjs/-/nextjs-7.55.2.tgz#03a6d6779b30d25bb87e4bbfaba4457b40eae0ab"
   integrity sha512-YIq/gLMCCdcKmPln5zglWHKwQB8KWGblOJ19t/JuHSyffWXL1x1IYyBYgpdjzn6q0AgwsK4IM6TqTb3ISN8wLQ==
@@ -2336,7 +2336,7 @@
     "@typescript-eslint/types" "5.59.11"
     eslint-visitor-keys "^3.3.0"
 
-"@vercel/analytics@^1.0.1":
+"@vercel/analytics@1.0.1":
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-1.0.1.tgz#38308a626c91866cb00a249c08bf65251e9b9d81"
   integrity sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow==
