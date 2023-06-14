@@ -42,7 +42,7 @@
     "eslint-config-next": "latest",
     "lint-staged": "13.1.0",
     "postcss": "8.4.20",
-    "prettier": "2.8.1",
+    "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "0.2.1",
     "tailwindcss": "3.3.1",
     "typescript": "4.9.4"
