@@ -1,50 +1,40 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
   "enabled": true,
   "enabledManagers": ["npm", "github-actions"],
   "postUpdateOptions": ["yarnDedupeHighest"],
+  "rangeStrategy": "update-lockfile",
+  "prHourlyLimit": 10,
+  "labels": ["Dependacy"],
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "groupName": "vitest monorepo",
       "groupSlug": "vitest",
-      "matchPackageNames": [
-        "vitest"
-      ],
-      "matchPackagePrefixes": [
-        "@vitest/"
-      ]
+      "matchPackageNames": ["vitest"],
+      "matchPackagePrefixes": ["@vitest/"]
     },
     {
       "groupName": "tailwind monorepo",
       "groupSlug": "tailwind",
-      "matchPackageNames": [
-        "remix"
-      ],
-      "matchPackagePrefixes": [
-        "@tailwindcss/"
-      ]
+      "matchPackageNames": ["remix"],
+      "matchPackagePrefixes": ["@tailwindcss/"]
     },
     {
       "matchPaths": ["package.json"],
-      "matchDepTypes": [
-        "dependencies"
-      ],
+      "matchDepTypes": ["dependencies"],
       "rangeStrategy": "pin"
     },
     {
       "matchPaths": ["packages/**"],
-      "matchDepTypes": [
-        "dependencies"
-      ],
+      "matchDepTypes": ["dependencies"],
       "rangeStrategy": "replace"
     },
     {
-      "matchDepTypes": [
-        "devDependencies"
-      ],
+      "matchDepTypes": ["devDependencies"],
       "rangeStrategy": "auto"
     }
   ]
