@@ -19,7 +19,7 @@
   "dependencies": {
     "@heroicons/react": "1.0.6",
     "clsx": "1.2.1",
-    "date-fns": "2.29.3",
+    "date-fns": "2.30.0",
     "dinero.js": "2.0.0-alpha.14",
     "ms": "3.0.0-canary.1",
     "next": "latest",
