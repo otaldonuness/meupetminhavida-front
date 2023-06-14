@@ -40,7 +40,7 @@
     "autoprefixer": "10.4.14",
     "eslint": "8.30.0",
     "eslint-config-next": "latest",
-    "lint-staged": "13.1.0",
+    "lint-staged": "13.2.2",
     "postcss": "8.4.24",
     "prettier": "2.8.8",
     "prettier-plugin-tailwindcss": "0.2.1",
