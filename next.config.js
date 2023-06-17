@@ -15,7 +15,7 @@ module.exports = withSentryConfig(
   {
     silent: true,
     org: "cloudwalk-55",
-    project: "getpet-front",
+    project: "meupetminhavida-front",
   },
   {
     widenClientFileUpload: true,
