@@ -1,4 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
+import "../styles/globals.css";
 
 /* eslint-disable import/no-default-export */
 export default function RootLayout({
@@ -7,9 +8,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <head>
-        <title>Next.js</title>
+        <title>Meu Pet Minha Vida - WIP</title>
       </head>
       <body>
         {children}
