@@ -1,5 +1,5 @@
 {
-  "repositoryUrl": "https://github.com/otaldonuness/meupetminhavida-front.git",
+  "repositoryUrl": "git@github.com:otaldonuness/meupetminhavida-front.git",
   "publishConfig": {
     "access": "public"
   },

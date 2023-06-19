@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbo",
@@ -12,6 +12,10 @@
     "prepare": "yarn husky install",
     "commit": "git-cz",
     "release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:otaldonuness/meupetminhavida-front.git"
   },
   "git": {
     "pre-commit": "lint-staged"
@@ -27,6 +31,8 @@
     "clsx": "1.2.1",
     "date-fns": "2.30.0",
     "dinero.js": "2.0.0-alpha.14",
+    "marked-gfm-heading-id": "^3.0.4",
+    "marked-mangle": "^1.0.1",
     "ms": "3.0.0-canary.1",
     "next": "latest",
     "react": "18.2.0",
