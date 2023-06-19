@@ -2068,7 +2068,7 @@
     localforage "^1.8.1"
     tslib "^1.9.3"
 
-"@sentry/nextjs@^7.56.0":
+"@sentry/nextjs@7.56.0":
   version "7.56.0"
   resolved "https://registry.yarnpkg.com/@sentry/nextjs/-/nextjs-7.56.0.tgz#75467c6d5efe35a18d014966bff935c2ac3e0f36"
   integrity sha512-s/HX6e3r8dS/683mbKfJymKg2DSqfQBeMRMxfp34Lg7Pzed/VLE9JLPkZq7BcS7leD0XQEflyxGYBKEq8iqeKA==
