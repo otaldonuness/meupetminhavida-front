@@ -22,6 +22,8 @@ jobs:
         run: yarn --frozen-lockfile
 
       - name: Run Semantic Release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
 
       - name: Trigger Vercel Deploy

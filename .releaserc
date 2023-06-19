@@ -4,7 +4,7 @@
     "url": "https://github.com/otaldonuness/meupetminhavida-front.git"
   },
   "publishConfig": {
-    "access": "restricted"
+    "access": "public"
   },
   "branches": [
     "main"
