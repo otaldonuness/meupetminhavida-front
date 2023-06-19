@@ -1,10 +1,11 @@
 <a name="readme-top"></a>
 
-[![Contributors][contributors-shield]][https://github.com/otaldonuness/meupetminhavida-front/graphs/contributors]
-[![Forks][forks-shield]][https://github.com/otaldonuness/meupetminhavida-front/network/members]
-[![Stargazers][stars-shield]][https://github.com/otaldonuness/meupetminhavida-front/stargazers]
-[![Issues][issues-shield]][https://github.com/otaldonuness/meupetminhavida-front/issues]
-[![GPL-3.0 License][license-shield]][https://github.com/otaldonuness/meupetminhavida-front/blob/main/LICENSE]
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
@@ -66,9 +67,8 @@ Sobre o projeto aqui
 
 ### Built With
 
-- [![Next][Next.js]][https://nextjs.org/]
-- [![React][React.js]][https://react.dev/]
-- [![Sentry][Sentry.io]][https://sentry.io/]
+- [![Next][Next.js]][Next-url]
+- [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
