@@ -1,5 +1,6 @@
-import { Analytics } from "@vercel/analytics/react";
 import "../styles/globals.css";
+
+import { Analytics } from "@vercel/analytics/react";
 
 /* eslint-disable import/no-default-export */
 export default function RootLayout({
