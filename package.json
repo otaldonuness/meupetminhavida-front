@@ -79,7 +79,7 @@
     "storybook-addon-designs": "^7.0.0-beta.2",
     "storybook-addon-i18next": "^1.3.0",
     "storybook-addon-jarle-monaco": "^0.5.0",
-    "storybook-addon-live-examples": "^1.0.18",
+    "storybook-addon-live-examples": "^2.0.0",
     "storybook-addon-locale": "^0.3.6",
     "storybook-addon-root-attribute": "^1.0.2",
     "storybook-addon-swc": "^1.2.0",
