@@ -7,6 +7,10 @@
   "rangeStrategy": "update-lockfile",
   "prHourlyLimit": 10,
   "labels": ["Dependacy"],
+  "assigneesFromCodeOwners": true,
+  "dependencyDashboardHeader": "",
+  "osvVulnerabilityAlerts": true,
+  "timezone": "America/Sao_Paulo",
   "lockFileMaintenance": {
     "enabled": true
   },
