@@ -10493,6 +10493,13 @@ hast-util-to-estree@^2.0.0:
     unist-util-position "^4.0.0"
     zwitch "^2.0.0"
 
+hast-util-to-string@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/hast-util-to-string/-/hast-util-to-string-2.0.0.tgz#b008b0a4ea472bf34dd390b7eea1018726ae152a"
+  integrity sha512-02AQ3vLhuH3FisaMM+i/9sm4OXGSq1UhOOCpTLLQtHdL3tZt7qil69r8M8iDkZYyC0HCFylcYoP+8IO7ddta1A==
+  dependencies:
+    "@types/hast" "^2.0.0"
+
 hast-util-whitespace@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/hast-util-whitespace/-/hast-util-whitespace-2.0.1.tgz#0ec64e257e6fc216c7d14c8a1b74d27d650b4557"
@@ -15824,7 +15831,7 @@ react-lifecycles-compat@^3.0.4:
   resolved "https://registry.yarnpkg.com/react-lifecycles-compat/-/react-lifecycles-compat-3.0.4.tgz#4f1a273afdfc8f3488a8c516bfda78f872352362"
   integrity sha512-fBASbA6LnOU9dOU2eW7aQ8xmYBSXUIWr+UmF9b1efZBazGNO+rcXT/icdKnYm2pTwcRylVUYwW7H1PHfLekVzA==
 
-react-live@^2.3.0:
+react-live@^2.4.1:
   version "2.4.1"
   resolved "https://registry.yarnpkg.com/react-live/-/react-live-2.4.1.tgz#65e674ff9ca9a9a95f83117acc21ffd968aca619"
   integrity sha512-r+32f7oV/kBs3QZBRvaT+9vOkQW47UZrDpgwUe5FiIMOl7sdo5pmISgb7Zpj5PGHgY6XQaiXs3FEh+IWw3KbRg==
@@ -16422,6 +16429,19 @@ remark-gfm@^3.0.1:
     mdast-util-gfm "^2.0.0"
     micromark-extension-gfm "^2.0.0"
     unified "^10.0.0"
+
+remark-mdx-code-meta@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/remark-mdx-code-meta/-/remark-mdx-code-meta-2.0.0.tgz#3280d366f6489ea799e8b5623401e07105fa8ac1"
+  integrity sha512-UA7i3ooevNEmgr5DAVtUY+KRIkvbVe5OOysvJcNXEjS2ZiT3gaibPHN57JPbbiT1kq4x8+e3viy88svrReuLfw==
+  dependencies:
+    "@types/mdast" "^3.0.0"
+    acorn "^8.0.0"
+    acorn-jsx "^5.0.0"
+    estree-util-is-identifier-name "^2.0.0"
+    hast-util-to-string "^2.0.0"
+    unified "^10.0.0"
+    unist-util-visit "^4.0.0"
 
 remark-mdx@^2.0.0:
   version "2.3.0"
@@ -17398,15 +17418,16 @@ storybook-addon-jarle-monaco@^0.5.0:
     react "^16.14.0"
     react-dom "^16.14.0"
 
-storybook-addon-live-examples@^1.0.18:
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/storybook-addon-live-examples/-/storybook-addon-live-examples-1.0.19.tgz#2e0d6b04b5da5b8ab1348ca9964ffe01bcbb2323"
-  integrity sha512-njUzVe+wsxC6whseL9OO6rW54iVS+i7XkXBUnOYhZmItn27ipwbTuLXbWIERbqDr3LeHOJFNEnPOfh+GupY3VA==
+storybook-addon-live-examples@^2.0.0:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/storybook-addon-live-examples/-/storybook-addon-live-examples-2.0.2.tgz#a8fe81cec7fa1f3a8b0f9fc96462655bd70c863f"
+  integrity sha512-RyEjqN7A6XLDid8atMGqYyr4xbaC8FVrASe8mG3qa39SQLsKtRtbeFy1UcWUbWyXDbcGjjAwROePa8mRv82/lg==
   dependencies:
     "@alfalab/core-components" ">=35.1.0"
     "@alfalab/icons-glyph" "^2.66.0"
     prettier "^2.4.0"
-    react-live "^2.3.0"
+    react-live "^2.4.1"
+    remark-mdx-code-meta "^2.0.0"
 
 storybook-addon-locale@^0.3.5, storybook-addon-locale@^0.3.6:
   version "0.3.6"
