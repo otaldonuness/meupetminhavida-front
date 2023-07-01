@@ -18,7 +18,7 @@
 <h3 align="center">Meu Pet Minha Vida</h3>
 
   <p align="center">
-    descricao do projeto aqui
+    Project created with the goal of developing a platform capable of assisting in the pet adoption process.
     <br />
     <a href="https://github.com/otaldonuness/meupetminhavida-fronte"><strong>Explore the docs »</strong></a>
     <br />
@@ -61,7 +61,9 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Sobre o projeto aqui
+"Meu Pet Minha Vida" is an open source project created with the goal of developing a platform capable of assisting in the pet adoption process, where users can access and find their next pet to foster!
+
+🇧🇷 "Meu Pet Minha Vida" é um projeto open source criado com objetivo de desenvolver uma plataforma capaz de auxiliar no processo de adoção de animais de estimação, onde os usuários podem acessar e encontrar seu próximo bichinho para acolher!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -186,3 +188,4 @@ Project Link: [https://github.com/otaldonuness/meupetminhavida-front](https://gi
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+
