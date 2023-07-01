@@ -161,6 +161,8 @@ Meu Pet Minha Vida - [@meupetminhavida](https://twitter.com/meupetminhavida) - c
 
 Project Link: [https://github.com/otaldonuness/meupetminhavida-front](https://github.com/otaldonuness/meupetminhavida-front)
 
+Discord Community: [Meu Pet Minha Vida (Discord)](https://discord.com/invite/RAnhUJNv2j)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Acknowledgments
