@@ -23,7 +23,7 @@
     <a href="https://github.com/otaldonuness/meupetminhavida-fronte"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/otaldonuness/meupetminhavida-front">View Demo</a>
+    <a href="https://www.meupetminhavida.org/">Website</a>
     ·
     <a href="https://github.com/otaldonuness/meupetminhavida-front/issues">Report Bug</a>
     ·
