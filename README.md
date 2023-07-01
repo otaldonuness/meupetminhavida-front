@@ -69,8 +69,9 @@
 
 ### Built With
 
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
+[![Next][Next.js]][Next-url]
+[![React][React.js]][React-url]
+[![TailwindCSS][TailwindCSS]][TailwindCSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -209,3 +210,5 @@ Discord Community: [Meu Pet Minha Vida (Discord)](https://discord.com/invite/RAn
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[TailwindCSS]: https://img.shields.io/badge/tailwindcss-20232A?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8
+[TailwindCSS-url]: https://tailwindcss.com/
