@@ -76,31 +76,25 @@
 
 ## Getting Started
 
-Instrucoes aqui
+This repository is related to the frontend of the platform.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+- <u>**Git**</u>
+- <u>**NodeJS**</u>
+- <u>**Yarn**</u>: As Yarn is used in this project, please ensure that the tool is properly installed on your machine before proceeding. Although compatible, NPM may cause conflicts.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   # If it's for development purposes, please clone your fork.
+   git clone https://github.com/otaldonuness/meupetminhavida-front.git
    ```
-3. Install NPM packages
+2. Install dependencies
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+   # Navigate to the directory where the repository was cloned on your machine.
+   yarn
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -109,7 +103,32 @@ This is an example of how to list things you need to use the software and how to
 
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+**Open local dev server**:
+
+```sh
+# It usually opens at "http://localhost:3000", but please check in the terminal.
+yarn dev
+```
+
+**Build for production:**
+
+```sh
+yarn build
+```
+
+**Test production build**:
+
+```sh
+# Make sure to run "yarn build" before.
+yarn start
+```
+
+**Open storybook**: Storybook allows us to test components in isolation, and getting started is quite simple. Please refer to the <a href="https://storybook.js.org/docs/react/get-started/install" target="_blank">documentation</a> to learn more about how to use this tool.
+
+```sh
+# It usually open at "http://localhost:6006", but please check in the terminal.
+yarn storybook
+```
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
@@ -190,4 +209,3 @@ Discord Community: [Meu Pet Minha Vida (Discord)](https://discord.com/invite/RAn
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
-
