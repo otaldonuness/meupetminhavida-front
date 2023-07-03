@@ -5,9 +5,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+<!--[![LinkedIn][linkedin-shield]][linkedin-url]-->
 
 <br />
 <div align="center">
@@ -20,7 +19,7 @@
   <p align="center">
     Project created with the goal of developing a platform capable of assisting in the pet adoption process.
     <br />
-    <a href="https://github.com/otaldonuness/meupetminhavida-fronte"><strong>Explore the docs »</strong></a>
+    <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://www.meupetminhavida.org/">Website</a>
@@ -49,11 +48,11 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
+    <!--<li><a href="#roadmap">Roadmap</a></li>-->
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <!--<li><a href="#acknowledgments">Acknowledgments</a></li>-->
   </ol>
 </details>
 
@@ -63,7 +62,7 @@
 
 "Meu Pet Minha Vida" is an open source project created with the goal of developing a platform capable of assisting in the pet adoption process, where users can access and find their next pet to foster!
 
-🇧🇷 "Meu Pet Minha Vida" é um projeto open source criado com objetivo de desenvolver uma plataforma capaz de auxiliar no processo de adoção de animais de estimação, onde os usuários podem acessar e encontrar seu próximo bichinho para acolher!
+"Meu Pet Minha Vida" é um projeto open source criado com objetivo de desenvolver uma plataforma capaz de auxiliar no processo de adoção de animais de estimação, onde os usuários podem acessar e encontrar seu próximo bichinho para acolher! 🇧🇷
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -131,12 +130,10 @@ yarn start
 yarn storybook
 ```
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-
+<!--
 ## Roadmap
 
 - [ ] Feature 1
@@ -147,6 +144,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 See the [open issues](https://github.com/otaldonuness/meupetminhavida-front/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 <!-- CONTRIBUTING -->
 
@@ -185,6 +183,7 @@ Discord Community: [Meu Pet Minha Vida (Discord)](https://discord.com/invite/RAn
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--
 ## Acknowledgments
 
 - []()
@@ -192,6 +191,7 @@ Discord Community: [Meu Pet Minha Vida (Discord)](https://discord.com/invite/RAn
 - []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 [contributors-shield]: https://img.shields.io/github/contributors/otaldonuness/meupetminhavida-front.svg?style=for-the-badge
 [contributors-url]: https://github.com/otaldonuness/meupetminhavida-front/graphs/contributors
