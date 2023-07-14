@@ -5,9 +5,8 @@
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- [![LinkedIn][linkedin-shield]][linkedin-url] -->
+<!--[![LinkedIn][linkedin-shield]][linkedin-url]-->
 
 <br />
 <div align="center">
@@ -18,12 +17,12 @@
 <h3 align="center">Meu Pet Minha Vida</h3>
 
   <p align="center">
-    descricao do projeto aqui
+    Project created with the goal of developing a platform capable of assisting in the pet adoption process.
     <br />
-    <a href="https://github.com/otaldonuness/meupetminhavida-fronte"><strong>Explore the docs »</strong></a>
+    <a href="#"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/otaldonuness/meupetminhavida-front">View Demo</a>
+    <a href="https://www.meupetminhavida.org/">Website</a>
     ·
     <a href="https://github.com/otaldonuness/meupetminhavida-front/issues">Report Bug</a>
     ·
@@ -33,88 +32,111 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Content</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#🎯-about-the-project">🎯 About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#🔨-built-with">🔨 Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">🚀 Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#🔧-installation">🔧 Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#💻-usage">💻 Usage</a></li>
+    <!--<li><a href="#roadmap">Roadmap</a></li>-->
+    <li><a href="#🤝-contributing">🤝 Contributing</a></li>
+    <li><a href="#📜-license">📜 License</a></li>
+    <li><a href="#📧-contact">📧 Contact</a></li>
+    <!--<li><a href="#acknowledgments">Acknowledgments</a></li>-->
   </ol>
 </details>
 
-## About The Project
+## 🎯 About The Project
 
+<div align="center">
+  <a href="https://github.com/otaldonuness/meupetminhavida-front">
+    <img src="images/caramelo.png" alt="Logo Caramelo" width="80" height="80">
+  </a>
+</div>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Sobre o projeto aqui
+The front-end of the "Meu Pet Minha Vida" project, which is open source and aims to enhance the pet adoption process. The idea is to develop a website that helps animals find a perfect match with their new owner.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## 🔨 Built With
 
-- [![Next][Next.js]][Next-url]
-- [![React][React.js]][React-url]
+[![Next][Next.js]][Next-url]
+[![React][React.js]][React-url]
+[![TailwindCSS][TailwindCSS]][TailwindCSS-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
+## 🚀 Getting Started
 
-Instrucoes aqui
+This repository is related to the frontend of the platform.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+- <u>**Git**</u>
+- <u>**NodeJS**</u>
+- <u>**Yarn**</u>: As Yarn is used in this project, please ensure that the tool is properly installed on your machine before proceeding. Although compatible, NPM may cause conflicts.
 
-- npm
-  ```sh
-  npm install npm@latest -g
-  ```
+### 🔧 Installation
 
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   # If it's for development purposes, please clone your fork.
+   git clone https://github.com/otaldonuness/meupetminhavida-front.git
    ```
-3. Install NPM packages
+2. Install dependencies
    ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = "ENTER YOUR API";
+   # Navigate to the directory where the repository was cloned on your machine.
+   yarn
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+## 💻 Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+**Open local dev server**:
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+```sh
+# It usually opens at "http://localhost:3000", but please check in the terminal.
+yarn dev
+```
+
+**Build for production:**
+
+```sh
+yarn build
+```
+
+**Test production build**:
+
+```sh
+# Make sure to run "yarn build" before.
+yarn start
+```
+
+**Open storybook**: Storybook allows us to test components in isolation, and getting started is quite simple. Please refer to the <a href="https://storybook.js.org/docs/react/get-started/install" target="_blank">documentation</a> to learn more about how to use this tool.
+
+```sh
+# It usually open at "http://localhost:6006", but please check in the terminal.
+yarn storybook
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ROADMAP -->
-
+<!--
 ## Roadmap
 
 - [ ] Feature 1
@@ -125,10 +147,11 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 See the [open issues](https://github.com/otaldonuness/meupetminhavida-front/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -145,22 +168,25 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 
-## License
+## 📜 License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GPL License. See [LICENSE](LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
-## Contact
+## 📧 Contact
 
 Meu Pet Minha Vida - [@meupetminhavida](https://twitter.com/meupetminhavida) - contato@meupetminhavida.org
 
 Project Link: [https://github.com/otaldonuness/meupetminhavida-front](https://github.com/otaldonuness/meupetminhavida-front)
 
+Discord Community: [Meu Pet Minha Vida (Discord)](https://discord.com/invite/RAnhUJNv2j)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!--
 ## Acknowledgments
 
 - []()
@@ -168,6 +194,7 @@ Project Link: [https://github.com/otaldonuness/meupetminhavida-front](https://gi
 - []()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+-->
 
 [contributors-shield]: https://img.shields.io/github/contributors/otaldonuness/meupetminhavida-front.svg?style=for-the-badge
 [contributors-url]: https://github.com/otaldonuness/meupetminhavida-front/graphs/contributors
@@ -186,3 +213,5 @@ Project Link: [https://github.com/otaldonuness/meupetminhavida-front](https://gi
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
+[TailwindCSS]: https://img.shields.io/badge/tailwindcss-20232A?style=for-the-badge&logo=tailwindcss&logoColor=38bdf8
+[TailwindCSS-url]: https://tailwindcss.com/
