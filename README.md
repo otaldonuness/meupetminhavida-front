@@ -32,7 +32,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Content</summary>
   <ol>
     <li>
       <a href="#🎯-about-the-project">🎯 About The Project</a>
@@ -60,9 +60,7 @@
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-"Meu Pet Minha Vida" is an open source project created with the goal of developing a platform capable of assisting in the pet adoption process, where users can access and find their next pet to foster!
-
-"Meu Pet Minha Vida" é um projeto open source criado com objetivo de desenvolver uma plataforma capaz de auxiliar no processo de adoção de animais de estimação, onde os usuários podem acessar e encontrar seu próximo bichinho para acolher! 🇧🇷
+The front-end of the "Meu Pet Minha Vida" project, which is open source and aims to enhance the pet adoption process. The idea is to develop a website that helps animals find a perfect match with their new owner.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
