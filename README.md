@@ -58,6 +58,11 @@
 
 ## 🎯 About The Project
 
+<div align="center">
+  <a href="https://github.com/otaldonuness/meupetminhavida-front">
+    <img src="images/caramelo.png" alt="Logo Caramelo" width="80" height="80">
+  </a>
+</div>
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
 The front-end of the "Meu Pet Minha Vida" project, which is open source and aims to enhance the pet adoption process. The idea is to develop a website that helps animals find a perfect match with their new owner.
