@@ -35,28 +35,28 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#🎯-about-the-project">🎯 About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#🔨-built-with">🔨 Built With</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#getting-started">🚀 Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#🔧-installation">🔧 Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#💻-usage">💻 Usage</a></li>
     <!--<li><a href="#roadmap">Roadmap</a></li>-->
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#🤝-contributing">🤝 Contributing</a></li>
+    <li><a href="#📜-license">📜 License</a></li>
+    <li><a href="#📧-contact">📧 Contact</a></li>
     <!--<li><a href="#acknowledgments">Acknowledgments</a></li>-->
   </ol>
 </details>
 
-## About The Project
+## 🎯 About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
@@ -66,7 +66,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
+## 🔨 Built With
 
 [![Next][Next.js]][Next-url]
 [![React][React.js]][React-url]
@@ -74,7 +74,7 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Getting Started
+## 🚀 Getting Started
 
 This repository is related to the frontend of the platform.
 
@@ -84,7 +84,7 @@ This repository is related to the frontend of the platform.
 - <u>**NodeJS**</u>
 - <u>**Yarn**</u>: As Yarn is used in this project, please ensure that the tool is properly installed on your machine before proceeding. Although compatible, NPM may cause conflicts.
 
-### Installation
+### 🔧 Installation
 
 1. Clone the repo
    ```sh
@@ -101,7 +101,7 @@ This repository is related to the frontend of the platform.
 
 <!-- USAGE EXAMPLES -->
 
-## Usage
+## 💻 Usage
 
 **Open local dev server**:
 
@@ -148,7 +148,7 @@ See the [open issues](https://github.com/otaldonuness/meupetminhavida-front/issu
 
 <!-- CONTRIBUTING -->
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
@@ -165,7 +165,7 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- LICENSE -->
 
-## License
+## 📜 License
 
 Distributed under the GPL License. See [LICENSE](LICENSE) for more information.
 
@@ -173,7 +173,7 @@ Distributed under the GPL License. See [LICENSE](LICENSE) for more information.
 
 <!-- CONTACT -->
 
-## Contact
+## 📧 Contact
 
 Meu Pet Minha Vida - [@meupetminhavida](https://twitter.com/meupetminhavida) - contato@meupetminhavida.org
 
