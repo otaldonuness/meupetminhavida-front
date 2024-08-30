@@ -41,7 +41,7 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "server-only": "0.0.1",
-    "styled-components": "6.0.0-beta.2",
+    "styled-components": "6.1.13",
     "use-count-up": "3.0.1"
   },
   "devDependencies": {
